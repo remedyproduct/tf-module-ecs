@@ -1,3 +1,3 @@
 /**
- * # ECS Cluster - Terraform Module
+ * ECS Cluster - Terraform Module
  */
