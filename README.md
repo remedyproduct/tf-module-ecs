@@ -1,7 +1,7 @@
 # Usage
 
 <!--- BEGIN_TF_DOCS --->
-# ECS Cluster - Terraform Module
+ECS Cluster - Terraform Module
 
 ## Requirements
 
