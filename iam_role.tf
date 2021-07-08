@@ -27,11 +27,11 @@ data "aws_iam_policy" "task_execution" {
 }
 
 resource "aws_iam_role_policy_attachment" "execution_role_cloudwatch" {
-  role       = aws_iam_role.execution_role.name
+  role       = aws_iam_role.task.name
   policy_arn = data.aws_iam_policy.cloudwatch.arn
 }
 
 resource "aws_iam_role_policy_attachment" "execution_role_task_execution" {
-  role       = aws_iam_role.execution_role.name
+  role       = aws_iam_role.task.name
   policy_arn = data.aws_iam_policy.task_execution.arn
 }
